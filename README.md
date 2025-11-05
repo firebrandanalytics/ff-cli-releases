@@ -31,13 +31,6 @@ curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/do
 sudo mv ff-cli /usr/local/bin/
 ```
 
-### Linux (ARM64)
-
-```bash
-curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/download/ff-cli-aarch64-unknown-linux-gnu.tar.gz | tar xz
-sudo mv ff-cli /usr/local/bin/
-```
-
 ## Verify Installation
 
 ```bash
