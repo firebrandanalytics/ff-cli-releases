@@ -9,6 +9,9 @@ Official binary releases for the FireFoundry CLI - a Rust-based tool for scaffol
 ```bash
 curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/download/ff-cli-universal-apple-darwin.tar.gz | tar xz
 sudo mv ff-cli /usr/local/bin/
+
+# Apple trust
+sudo xattr -d com.apple.quarantine
 ```
 
 ### macOS (Homebrew)
