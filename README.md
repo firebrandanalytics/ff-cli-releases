@@ -1,6 +1,6 @@
 # FireFoundry CLI
 
-Official binary releases for the FireFoundry CLI - a Rust-based tool for scaffolding and managing AI agent bundle projects.
+Official binary releases for the FireFoundry CLI — a tool for scaffolding and managing AI agent bundle projects.
 
 ## Installation
 
@@ -11,7 +11,7 @@ curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/do
 sudo mv ff-cli /usr/local/bin/
 
 # Apple trust
-sudo xattr -d com.apple.quarantine
+sudo xattr -d com.apple.quarantine /usr/local/bin/ff-cli
 ```
 
 ### macOS (Homebrew)
@@ -34,6 +34,13 @@ curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/do
 sudo mv ff-cli /usr/local/bin/
 ```
 
+### Linux (ARM64)
+
+```bash
+curl -L https://github.com/firebrandanalytics/ff-cli-releases/releases/latest/download/ff-cli-aarch64-unknown-linux-gnu.tar.gz | tar xz
+sudo mv ff-cli /usr/local/bin/
+```
+
 ## Verify Installation
 
 ```bash
@@ -48,15 +55,14 @@ For documentation and usage examples, visit [FireFoundry Documentation](https://
 ## Support
 
 - Report issues: [GitHub Issues](https://github.com/firebrandanalytics/ff-cli-releases/issues)
-- Contact: support@firebrandanalytics.com
+- Contact: support@firebrand.ai
 
 ## License
 
-© 2025 Firebrand Analytics, LLC. All rights reserved.
+Copyright 2025-2026 Firebrand Analytics, LLC. All rights reserved.
 
 This software and its source code are the property of Firebrand Analytics, LLC.
 Unauthorized copying, modification, distribution, or use of this software,
 via any medium, is strictly prohibited.
 
 This code is confidential and proprietary.
-
